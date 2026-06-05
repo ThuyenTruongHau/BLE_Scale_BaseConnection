@@ -1,0 +1,45 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+
+# Frontend (Vite + React)
+frontend/node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# Reference APK / archives (reverse-engineering only — keep out of git)
+__UNI__*/
+__UNI__*.zip
+*.apk
+*.rar
+
+# IDE & editor
+.cursor/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
